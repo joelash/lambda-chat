@@ -132,7 +132,8 @@ def generate_cf_template():
     website_sns_topic = t.add_resource(sns.Topic(
         'WebsiteSnsTopic',
         TopicName='lambda-chat',
-        DisplayName='Lambda Chat'
+        DisplayName='Lambda Chat',
+        Subscription=[]
     ))
     t.add_output(Output(
         "WebsiteSnsTopic",
