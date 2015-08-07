@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 """
 Script to generate a CloudFormation Template that brings up all of the AWS
 resources needed to run lambda-chat
